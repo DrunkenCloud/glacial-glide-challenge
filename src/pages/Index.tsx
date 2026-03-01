@@ -1,12 +1,43 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { useEffect } from "react";
+import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/sections/HeroSection";
+import ProblemSection from "@/components/sections/ProblemSection";
+import TaskSection from "@/components/sections/TaskSection";
+import TimelineSection from "@/components/sections/TimelineSection";
+import RulesSection from "@/components/sections/RulesSection";
+import PrizesSection from "@/components/sections/PrizesSection";
+import FooterSection from "@/components/sections/FooterSection";
 
 const Index = () => {
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    document.querySelectorAll(".scroll-reveal").forEach((el) => {
+      observer.observe(el);
+    });
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="bg-glacial-gradient min-h-screen overflow-x-hidden">
+      <Navbar />
+      <HeroSection />
+      <ProblemSection />
+      <TaskSection />
+      <TimelineSection />
+      <RulesSection />
+      <PrizesSection />
+      <FooterSection />
     </div>
   );
 };
