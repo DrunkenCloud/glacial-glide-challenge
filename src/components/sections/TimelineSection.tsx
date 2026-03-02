@@ -10,12 +10,12 @@ const milestones = [
 const TimelineSection = () => {
   return (
     <section id="timeline" className="relative py-24 md:py-32 px-4">
-      <div className="max-w-5xl mx-auto">
-        <div className="scroll-reveal text-center mb-10">
-          <span className="text-primary text-base font-medium tracking-widest uppercase">
+      <div className="max-w-6xl mx-auto">
+        <div className="scroll-reveal text-center mb-12">
+          <span className="text-primary text-lg font-medium tracking-widest uppercase">
             Mark Your Calendar
           </span>
-          <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold mt-4 text-foreground">
+          <h2 className="font-display text-5xl md:text-6xl lg:text-7xl font-bold mt-5 text-foreground">
             Important Dates
           </h2>
         </div>
@@ -42,24 +42,24 @@ const TimelineSection = () => {
                       isLeft ? "md:pr-10" : "md:pl-10"
                     }`}
                   >
-                    <div className="glass-card rounded-xl p-4 md:p-5 flex items-center gap-4 hover:border-primary/30 transition-colors">
+                    <div className="glass-card rounded-xl p-5 md:p-6 flex items-center gap-5 hover:border-primary/30 transition-colors">
                       {/* Date Square */}
-                      <div className={`shrink-0 w-20 h-20 md:w-24 md:h-24 rounded-lg flex flex-col items-center justify-center ${
+                      <div className={`shrink-0 w-24 h-24 md:w-28 md:h-28 rounded-lg flex flex-col items-center justify-center ${
                         m.done ? "bg-primary/20 border-2 border-primary" : "bg-primary/10 border-2 border-primary/30"
                       }`}>
-                        <p className="text-primary font-display font-bold text-lg md:text-xl leading-tight text-center px-2">
+                        <p className="text-primary font-display font-bold text-xl md:text-2xl leading-tight text-center px-2">
                           {m.date}
                         </p>
-                        <p className="text-primary/70 font-display text-xs md:text-sm mt-1">
+                        <p className="text-primary/70 font-display text-sm md:text-base mt-1">
                           {m.year}
                         </p>
                       </div>
 
                       {/* Details */}
                       <div className="flex-1">
-                        <p className="text-foreground font-semibold text-base md:text-lg">{m.label}</p>
+                        <p className="text-foreground font-semibold text-lg md:text-xl">{m.label}</p>
                         {m.done && (
-                          <span className="inline-block mt-1 text-xs text-primary/80 font-medium">
+                          <span className="inline-block mt-1 text-sm text-primary/80 font-medium">
                             ✓ Completed
                           </span>
                         )}

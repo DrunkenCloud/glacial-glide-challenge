@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex flex-col justify-start overflow-hidden pt-20"
+      className="relative min-h-screen flex flex-col justify-start overflow-hidden pt-100"
     >
       {/* Parallax mountain layers */}
       <div className="absolute inset-0 parallax-mountains" />
@@ -40,22 +40,22 @@ const HeroSection = () => {
       ))}
 
       {/* Content */}
-      <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
-        <div className="mb-8">
-          <span className="inline-block px-4 py-2 text-sm font-medium tracking-widest uppercase text-primary border border-primary/30 rounded-full mb-6">
+      <div className="relative z-10 text-center px-4 max-w-6xl mx-auto">
+        <div className="mb-10">
+          <span className="inline-block px-5 py-2.5 text-base font-medium tracking-widest uppercase text-primary border border-primary/30 rounded-full mb-8">
             CV Hackathon @ NCVPRIPG 2026
           </span>
         </div>
 
-        <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-8 leading-tight">
+        <h1 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold mb-10 leading-tight">
           <span className="text-gradient-ice">GLOFeagles '26</span>
           <br />
-          <span className="text-foreground/90 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-medium mt-3 block">
+          <span className="text-foreground/90 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-medium mt-4 block">
             Automated Detection of Glacial Lakes from Multi-Temporal Satellite Imagery
           </span>
         </h1>
 
-        <p className="text-muted-foreground text-base md:text-lg lg:text-xl mb-10 max-w-3xl mx-auto">
+        <p className="text-muted-foreground text-lg md:text-xl lg:text-2xl mb-12 max-w-3xl mx-auto">
           July 22–24, 2026 · LNMIIT Jaipur · Organized by Shiv Nadar University Chennai
         </p>
 
@@ -63,7 +63,7 @@ const HeroSection = () => {
           href="https://docs.google.com/forms/d/e/1FAIpQLSe02fogGYG-ysD2in3E-MhY7OTo7DVQK2YSQJ7JjcXEzfPgbQ/viewform"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block bg-primary text-primary-foreground font-display font-semibold px-10 py-4 rounded-lg text-xl glow-cyan hover:scale-105 transition-transform"
+          className="inline-block bg-primary text-primary-foreground font-display font-semibold px-12 py-5 rounded-lg text-2xl glow-cyan hover:scale-105 transition-transform"
         >
           Register Now
         </a>
