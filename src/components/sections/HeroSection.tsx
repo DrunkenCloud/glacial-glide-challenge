@@ -1,8 +1,5 @@
-import SkaterSVG from "../SkaterSVG";
-import { useScrollProgress } from "@/hooks/useScrollProgress";
 
 const HeroSection = () => {
-  const progress = useScrollProgress();
 
   return (
     <section
@@ -10,16 +7,10 @@ const HeroSection = () => {
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
       {/* Parallax mountain layers */}
-      <div
-        className="absolute inset-0 parallax-mountains"
-        style={{ transform: `translateY(${progress * 80}px)` }}
-      />
+      <div className="absolute inset-0 parallax-mountains" />
 
       {/* Mist layer */}
-      <div
-        className="absolute inset-0 parallax-mist"
-        style={{ transform: `translateY(${progress * 40}px)` }}
-      />
+      <div className="absolute inset-0 parallax-mist" />
 
       {/* Ice surface gradient */}
       <div className="absolute bottom-0 left-0 right-0 h-1/3 bg-ice-surface" />
@@ -41,17 +32,6 @@ const HeroSection = () => {
           }}
         />
       ))}
-
-      {/* Skater */}
-      <div
-        className="absolute bottom-[18%] animate-skate-glide"
-        style={{
-          left: `${10 + progress * 60}%`,
-          transition: "left 0.3s ease-out",
-        }}
-      >
-        <SkaterSVG className="w-20 h-28 md:w-28 md:h-36 drop-shadow-lg" />
-      </div>
 
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
