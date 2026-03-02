@@ -24,7 +24,7 @@ const FooterSection = () => {
 
         <div className="flex flex-wrap items-center justify-center gap-10 mb-12 text-lg">
           <a
-            href="mailto:erpsupport@snuchennai.edu.in"
+            href="mailto:glofeagles@snuchennai.edu.in"
             className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
           >
             <Mail className="w-6 h-6" />
