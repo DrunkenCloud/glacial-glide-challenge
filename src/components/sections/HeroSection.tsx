@@ -1,6 +1,6 @@
+import HeroSkater from "../HeroSkater";
 
 const HeroSection = () => {
-
   return (
     <section
       id="hero"
@@ -14,6 +14,9 @@ const HeroSection = () => {
 
       {/* Ice surface gradient */}
       <div className="absolute bottom-0 left-0 right-0 h-1/3 bg-ice-surface" />
+
+      {/* Mouse-controlled skater on the lake */}
+      <HeroSkater />
 
       {/* Ice crack lines */}
       <div className="absolute bottom-[30%] left-[10%] w-[30%] ice-crack-line rotate-12 opacity-40" />

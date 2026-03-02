@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import Navbar from "@/components/Navbar";
-import ScrollSkater from "@/components/ScrollSkater";
+
 import HeroSection from "@/components/sections/HeroSection";
 import ProblemSection from "@/components/sections/ProblemSection";
 import TaskSection from "@/components/sections/TaskSection";
@@ -32,7 +32,6 @@ const Index = () => {
   return (
     <div className="bg-glacial-gradient min-h-screen overflow-x-hidden">
       <Navbar />
-      <ScrollSkater />
       <HeroSection />
       <ProblemSection />
       <TaskSection />
