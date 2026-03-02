@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden pt-14"
     >
       {/* Parallax mountain layers */}
       <div className="absolute inset-0 parallax-mountains" />
@@ -24,14 +24,17 @@ const HeroSection = () => {
       <div className="absolute bottom-[35%] left-[40%] w-[20%] ice-crack-line rotate-3 opacity-20" />
 
       {/* Floating ice particles */}
-      {[...Array(6)].map((_, i) => (
+      {[...Array(18)].map((_, i) => (
         <div
           key={i}
-          className="absolute w-1 h-1 rounded-full bg-glacial-frost/30 animate-float-particle"
+          className="absolute rounded-full bg-glacial-frost/30 animate-float-particle"
           style={{
-            left: `${15 + i * 14}%`,
-            top: `${30 + (i % 3) * 15}%`,
-            animationDelay: `${i * 0.7}s`,
+            width: `${2 + (i % 3)}px`,
+            height: `${2 + (i % 3)}px`,
+            left: `${5 + i * 5}%`,
+            top: `${20 + (i % 5) * 12}%`,
+            animationDelay: `${i * 0.4}s`,
+            animationDuration: `${3 + (i % 3)}s`,
           }}
         />
       ))}
