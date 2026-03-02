@@ -2,19 +2,19 @@ import { Badge } from "@/components/ui/badge";
 
 const ProblemSection = () => {
   return (
-    <section id="challenge" className="relative py-24 md:py-32 px-4">
-      <div className="max-w-4xl mx-auto">
+    <section id="challenge" className="relative py-12 md:py-16 px-4">
+      <div className="max-w-5xl mx-auto">
         <div className="scroll-reveal">
-          <span className="text-primary text-sm font-medium tracking-widest uppercase">
+          <span className="text-primary text-base font-medium tracking-widest uppercase">
             The Challenge
           </span>
-          <h2 className="font-display text-3xl md:text-4xl font-bold mt-3 mb-8 text-foreground">
+          <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold mt-4 mb-8 text-foreground">
             Problem Statement
           </h2>
         </div>
 
-        <div className="scroll-reveal glass-card rounded-xl p-6 md:p-10 mb-8">
-          <p className="text-foreground/85 leading-relaxed text-sm md:text-base">
+        <div className="scroll-reveal glass-card rounded-xl p-8 md:p-12 mb-10">
+          <p className="text-foreground/85 leading-relaxed text-base md:text-lg lg:text-xl">
             Rapid glacier retreat driven by climate change has resulted in the widespread formation
             and expansion of glacial lakes in high-altitude mountain regions across the world.
             These lakes, particularly those dammed by loose moraines or remnant ice, pose a
@@ -32,21 +32,21 @@ const ProblemSection = () => {
           </p>
         </div>
 
-        <div className="scroll-reveal flex flex-wrap gap-3 mb-6">
-          <Badge className="bg-glacial-ice/20 text-glacial-ice border-glacial-ice/30 hover:bg-glacial-ice/30">
+        <div className="scroll-reveal flex flex-wrap gap-4 mb-8">
+          <Badge className="bg-glacial-ice/20 text-glacial-ice border-glacial-ice/30 hover:bg-glacial-ice/30 text-base px-4 py-2">
             🌍 SDG 9 – Infrastructure
           </Badge>
-          <Badge className="bg-glacial-ice/20 text-glacial-ice border-glacial-ice/30 hover:bg-glacial-ice/30">
+          <Badge className="bg-glacial-ice/20 text-glacial-ice border-glacial-ice/30 hover:bg-glacial-ice/30 text-base px-4 py-2">
             🏙️ SDG 11 – Sustainable Cities
           </Badge>
-          <Badge className="bg-accent/20 text-accent border-accent/30 hover:bg-accent/30">
+          <Badge className="bg-accent/20 text-accent border-accent/30 hover:bg-accent/30 text-base px-4 py-2">
             🌡️ SDG 13 – Climate Action
           </Badge>
         </div>
 
-        <div className="scroll-reveal glass-card rounded-lg p-4 inline-flex items-center gap-3">
-          <div className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-          <span className="text-sm text-muted-foreground">
+        <div className="scroll-reveal glass-card rounded-lg p-5 inline-flex items-center gap-4">
+          <div className="w-3 h-3 rounded-full bg-primary animate-pulse" />
+          <span className="text-base text-muted-foreground">
             <strong className="text-foreground">Dataset:</strong> Sentinel-2 multispectral imagery via IEEE DataPort
           </span>
         </div>
