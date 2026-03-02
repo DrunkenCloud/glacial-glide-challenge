@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden pt-14"
+      className="relative min-h-screen flex flex-col justify-start overflow-hidden pt-20"
     >
       {/* Parallax mountain layers */}
       <div className="absolute inset-0 parallax-mountains" />
