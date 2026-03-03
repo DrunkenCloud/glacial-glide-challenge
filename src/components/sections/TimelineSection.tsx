@@ -1,9 +1,9 @@
 const milestones = [
-  { date: "Mar 10", year: "2026", label: "Website Launch", done: true },
+  { date: "Mar 5", year: "2026", label: "Website Launch", done: true },
   { date: "Mar 20", year: "2026", label: "Dataset Release", done: false },
   { date: "Apr 1", year: "2026", label: "Submissions Open", done: false },
   { date: "Jun 5", year: "2026", label: "Submissions Close", done: false },
-  { date: "Jun 20", year: "2026", label: "Results Announced", done: false },
+  { date: "Jun 20", year: "2026", label: "Shortlist Announcement", done: false },
   { date: "Jun 20 – Jul 5", year: "2026", label: "Conference Registration", done: false },
 ];
 
@@ -83,6 +83,38 @@ const TimelineSection = () => {
                 </div>
               );
             })}
+          </div>
+
+          {/* Final Conference Block */}
+          <div className="scroll-reveal mt-16 relative">
+            {/* Final dot on the line */}
+            <div className="absolute left-6 md:left-1/2 -translate-x-1/2 top-0 z-10">
+              <div className="w-5 h-5 rounded-full border-[3px] bg-accent border-accent glow-cyan" />
+            </div>
+            
+            {/* Full width card */}
+            <div className="ml-16 md:ml-0">
+              <div className="glass-card rounded-xl p-8 md:p-10 text-center border-accent/30 bg-accent/5">
+                <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8">
+                  <div className="w-28 h-28 md:w-32 md:h-32 rounded-lg flex flex-col items-center justify-center bg-accent/20 border-2 border-accent">
+                    <p className="text-accent font-display font-bold text-2xl md:text-3xl leading-tight text-center px-2">
+                      Jul 22-24
+                    </p>
+                    <p className="text-accent/70 font-display text-base md:text-lg mt-1">
+                      2026
+                    </p>
+                  </div>
+                  <div className="text-center md:text-left">
+                    <h3 className="text-foreground font-display font-bold text-2xl md:text-3xl mb-2">
+                      Presentation at Conference
+                    </h3>
+                    <p className="text-muted-foreground text-base md:text-lg">
+                      NCVPRIPG 2026 · LNMIIT Jaipur
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

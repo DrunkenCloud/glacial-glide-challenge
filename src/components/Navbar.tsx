@@ -6,6 +6,7 @@ const Navbar = () => {
     { id: "timeline", label: "Dates" },
     { id: "rules", label: "Rules" },
     { id: "prizes", label: "Prizes" },
+    { id: "organizers", label: "Team" },
   ];
 
   const scrollTo = (id: string) => {

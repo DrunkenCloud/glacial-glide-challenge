@@ -14,7 +14,7 @@ const ProblemSection = () => {
         </div>
 
         <div className="scroll-reveal glass-card rounded-xl p-10 md:p-14 mb-12">
-          <p className="text-foreground/85 leading-relaxed text-lg md:text-xl lg:text-2xl">
+          <p className="text-foreground/85 leading-relaxed text-lg md:text-xl lg:text-2xl text-justify">
             Rapid glacier retreat driven by climate change has resulted in the widespread formation
             and expansion of glacial lakes in high-altitude mountain regions across the world.
             These lakes, particularly those dammed by loose moraines or remnant ice, pose a
@@ -43,12 +43,18 @@ const ProblemSection = () => {
             🌡️ SDG 13 – Climate Action
           </Badge>
         </div>
-
         <div className="scroll-reveal glass-card rounded-lg p-6 inline-flex items-center gap-5">
           <div className="w-3 h-3 rounded-full bg-primary animate-pulse" />
-          <span className="text-lg text-muted-foreground">
-            <strong className="text-foreground">Dataset:</strong> Sentinel-2 multispectral imagery via IEEE DataPort
-          </span>
+
+          <div className="flex items-center gap-3">
+            <span className="text-lg text-muted-foreground">
+              <strong className="text-foreground">Dataset:</strong> Sentinel-2 multispectral imagery via IEEE DataPort
+            </span>
+
+            <span className="px-3 py-1 text-s font-semibold rounded-full bg-yellow-500/10 text-yellow-500 border border-yellow-500/20">
+              To Be Released
+            </span>
+          </div>
         </div>
       </div>
     </section>

@@ -43,7 +43,7 @@ const HeroSection = () => {
       <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
         <div className="mb-8">
           <span className="inline-block px-4 py-2 text-sm font-medium tracking-widest uppercase text-primary border border-primary/30 rounded-full mb-6">
-            CV Hackathon @ NCVPRIPG 2026
+            Computer Vision Challenge @ NCVPRIPG 2026
           </span>
         </div>
 
