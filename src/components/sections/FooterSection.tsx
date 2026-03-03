@@ -3,7 +3,7 @@ import { Mail, ExternalLink } from "lucide-react";
 const FooterSection = () => {
   return (
     <footer className="relative py-16 px-4 border-t border-border/30">
-      <div className="max-w-6xl mx-auto text-center">
+      <div className="max-w-7xl mx-auto text-center">
         <div className="mb-12">
           <h3 className="font-display text-4xl font-bold text-gradient-ice mb-4">
             GLOFeagles '26

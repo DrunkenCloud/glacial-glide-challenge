@@ -20,7 +20,7 @@ const Index = () => {
           }
         });
       },
-      { threshold: 0.1 }
+      { threshold: 0.1 },
     );
 
     document.querySelectorAll(".scroll-reveal").forEach((el) => {
@@ -31,7 +31,7 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="bg-glacial-gradient min-h-screen overflow-x-hidden">
+    <div className="bg-glacial-gradient min-h-screen overflow-x-hidden pb-28">
       <Navbar />
       <HeroSection />
       <ProblemSection />

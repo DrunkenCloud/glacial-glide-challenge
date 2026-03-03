@@ -3,8 +3,18 @@ const milestones = [
   { date: "Mar 20", year: "2026", label: "Dataset Release", done: false },
   { date: "Apr 1", year: "2026", label: "Submissions Open", done: false },
   { date: "Jun 5", year: "2026", label: "Submissions Close", done: false },
-  { date: "Jun 20", year: "2026", label: "Shortlist Announcement", done: false },
-  { date: "Jun 20 – Jul 5", year: "2026", label: "Conference Registration", done: false },
+  {
+    date: "Jun 20",
+    year: "2026",
+    label: "Shortlist Announcement",
+    done: false,
+  },
+  {
+    date: "Jun 20 – Jul 5",
+    year: "2026",
+    label: "Conference Registration",
+    done: false,
+  },
 ];
 
 const TimelineSection = () => {
@@ -44,9 +54,13 @@ const TimelineSection = () => {
                   >
                     <div className="glass-card rounded-xl p-5 md:p-6 flex items-center gap-5 hover:border-primary/30 transition-colors">
                       {/* Date Square */}
-                      <div className={`shrink-0 w-24 h-24 md:w-28 md:h-28 rounded-lg flex flex-col items-center justify-center ${
-                        m.done ? "bg-primary/20 border-2 border-primary" : "bg-primary/10 border-2 border-primary/30"
-                      }`}>
+                      <div
+                        className={`shrink-0 w-24 h-24 md:w-28 md:h-28 rounded-lg flex flex-col items-center justify-center ${
+                          m.done
+                            ? "bg-primary/20 border-2 border-primary"
+                            : "bg-primary/10 border-2 border-primary/30"
+                        }`}
+                      >
                         <p className="text-primary font-display font-bold text-xl md:text-2xl leading-tight text-center px-2">
                           {m.date}
                         </p>
@@ -57,7 +71,9 @@ const TimelineSection = () => {
 
                       {/* Details */}
                       <div className="flex-1">
-                        <p className="text-foreground font-semibold text-lg md:text-xl">{m.label}</p>
+                        <p className="text-foreground font-semibold text-lg md:text-xl">
+                          {m.label}
+                        </p>
                         {m.done && (
                           <span className="inline-block mt-1 text-sm text-primary/80 font-medium">
                             ✓ Completed
@@ -89,9 +105,9 @@ const TimelineSection = () => {
           <div className="scroll-reveal mt-16 relative">
             {/* Final dot on the line */}
             <div className="absolute left-6 md:left-1/2 -translate-x-1/2 top-0 z-10">
-              <div className="w-5 h-5 rounded-full border-[3px] bg-accent border-accent glow-cyan" />
+              <div className="w-5 h-5 rounded-full border-[3px] bg-background border-accent glow-cyan" />
             </div>
-            
+
             {/* Full width card */}
             <div className="ml-16 md:ml-0">
               <div className="glass-card rounded-xl p-8 md:p-10 text-center border-accent/30 bg-accent/5">

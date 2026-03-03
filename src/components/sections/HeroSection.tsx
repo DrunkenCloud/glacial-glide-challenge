@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex flex-col justify-start overflow-hidden pt-28"
+      className="relative min-h-screen flex flex-col justify-start overflow-hidden pt-16"
     >
       {/* Parallax mountain layers */}
       <div className="absolute inset-0 parallax-mountains" />
@@ -41,22 +41,24 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
-        <div className="mb-8">
-          <span className="inline-block px-4 py-2 text-sm font-medium tracking-widest uppercase text-primary border border-primary/30 rounded-full mb-6">
+        <div className="mb-8 translate-y-8 md:translate-y-6">
+          <span className="inline-block px-4 py-2 text-[11px] sm:text-sm font-medium tracking-widest uppercase text-primary border border-primary/30 rounded-full mb-6">
             Computer Vision Challenge @ NCVPRIPG 2026
           </span>
         </div>
 
-        <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-8 leading-tight">
+        <h1 className="font-display text-5xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-8 leading-tight">
           <span className="text-gradient-ice">GLOFeagles '26</span>
           <br />
           <span className="text-foreground/90 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-medium mt-3 block">
-            Automated Detection of Glacial Lakes from Multi-Temporal Satellite Imagery
+            Automated Detection of Glacial Lakes from Multi-Temporal Satellite
+            Imagery
           </span>
         </h1>
 
         <p className="text-muted-foreground text-base md:text-lg lg:text-xl mb-10 max-w-3xl mx-auto">
-          July 22–24, 2026 · LNMIIT Jaipur · Organized by Shiv Nadar University Chennai
+          July 22–24, 2026 · LNMIIT Jaipur · <br className="sm:hidden" />
+          Organized by Shiv Nadar University Chennai
         </p>
 
         <a
