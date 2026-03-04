@@ -13,7 +13,7 @@ const organizers = {
       name: "Prof. P. Prakash",
       photo: "/Proff_P_Prakash.jpeg",
       link: "https://annauniv.irins.org/profile/117838",
-      subtext: "Anna University - MIT campus, Chennai",
+      subtext: "Anna University - MIT Campus, Chennai",
     },
   ] as OrganizerPerson[],
   challengeOrganizers: [
@@ -29,23 +29,23 @@ const organizers = {
       link: "https://www.snuchennai.edu.in/faculty/dr-k-b-sundhara-kumar/",
       subtext: "SNU Chennai",
     },
-    { 
-      name: "Dr. K Uthradevi", 
+    {
+      name: "Dr. K Uthradevi",
       photo: "/uthra.jpg",
-      link: "https://www.snuchennai.edu.in/dr-k-uthradevi/", 
-      subtext: "SNU Chennai" 
+      link: "https://www.snuchennai.edu.in/dr-k-uthradevi/",
+      subtext: "SNU Chennai",
     },
   ] as OrganizerPerson[],
   webMasters: [
     {
       name: "Niranjhan SU",
-      photo: "",
+      photo: "/niranjhan.webp",
       link: "https://www.linkedin.com/in/niranjhan-su/",
       subtext: "Student, SNU Chennai",
     },
     {
       name: "Prajesh Raam H S",
-      photo: "",
+      photo: "/prajesh.webp",
       link: "https://www.linkedin.com/in/prajeshraam/",
       subtext: "Student, SNU Chennai",
     },

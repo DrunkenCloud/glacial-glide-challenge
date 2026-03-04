@@ -60,7 +60,7 @@ const PrizesSection = () => {
           ))}
         </div>
 
-        <div className="scroll-reveal max-w-3xl mx-auto mb-12">
+        <div className="scroll-reveal max-w-3xl mx-auto">
           <div className="glass-card rounded-xl p-6 md:p-8">
             <p className="text-center text-primary text-sm md:text-base font-medium uppercase tracking-widest mb-5">
               Additional Recognition
@@ -69,22 +69,10 @@ const PrizesSection = () => {
               <div className="flex items-start gap-3 rounded-lg bg-background/20 px-4 py-3">
                 <FileText className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                 <p className="text-foreground/85 text-sm md:text-base leading-relaxed">
-                  Possible Publication Ventures as an Outcome of Winning the Challenge
+                  Collaboration opportunity on the summary paper
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-
-        {/* Sponsors */}
-        <div className="scroll-reveal text-center">
-          <p className="text-muted-foreground text-lg mb-8 tracking-widest uppercase">
-            Sponsors
-          </p>
-          <div className="glass-card rounded-lg px-10 py-5 inline-block">
-            <span className="text-foreground/85 font-medium text-xl">
-              To Be Announced
-            </span>
           </div>
         </div>
       </div>
