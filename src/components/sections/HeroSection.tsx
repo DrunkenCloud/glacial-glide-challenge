@@ -40,10 +40,14 @@ const HeroSection = () => {
       ))}
 
       {/* Content */}
-      <div className="relative z-10 text-center px-4 max-w-5xl mx-auto -mt-6">
-        <div className="inline-block mb-4 px-8 py-4 rounded-xl bg-primary/10 backdrop-blur-sm border border-primary/20">
-          <h2 className="font-display text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold tracking-wide text-glacial-frost leading-snug">
-            The 11th National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics (NCVPRIPG)
+      <div className="relative z-10 text-center px-4 max-w-[90rem] mx-auto -mt-6">
+        <div className="inline-block mb-6 px-16 py-3 rounded-xl bg-primary/10 backdrop-blur-sm border border-primary/30 shadow-lg w-full max-w-[85%]">
+          <h2 className="font-display text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl font-bold tracking-wide leading-tight">
+            <span className="text-glacial-frost">The 11th National Conference on</span>
+            <span className="text-glacial-frost"> Computer Vision, Pattern Recognition,</span>
+            <span className="text-glacial-frost"> Image Processing and Graphics</span>
+            <br />
+            <span className="text-primary font-extrabold">(NCVPRIPG 2026)</span>
           </h2>
         </div>
 

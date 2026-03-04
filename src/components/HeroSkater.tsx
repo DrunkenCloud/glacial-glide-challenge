@@ -152,7 +152,7 @@ const HeroSkater = () => {
   return (
     <div
       ref={containerRef}
-      className="absolute bottom-0 left-0 right-0 h-1/3 z-20"
+      className="absolute bottom-0 left-0 right-0 h-1/3 z-0"
     >
       {visible && (
         <div
