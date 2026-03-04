@@ -11,18 +11,22 @@ const organizers = {
   challengeOrganizers: [
     {
       name: "Dr. Vidhusha S",
-      photo:
-        "https://media.istockphoto.com/id/825383494/photo/business-man-pushing-large-stone-up-to-hill-business-heavy-tasks-and-problems-concept.jpg?s=612x612&w=0&k=20&c=wtqvbQ6OIHitRVDPTtoT_1HKUAOgyqa7YzzTMXqGRaQ=",
+      photo: "/Vidhusha.webp",
       link: "",
       subtext: "SNU Chennai",
     },
     {
       name: "Dr. Sundharakumar K B",
-      photo: "",
+      photo: "/sundar-snuc.webp",
       link: "",
       subtext: "SNU Chennai",
     },
-    { name: "Dr. K Uthradevi", photo: "", link: "", subtext: "SNU Chennai" },
+    { 
+      name: "Dr. K Uthradevi", 
+      photo: "/uthra.jpg",
+      link: "", 
+      subtext: "SNU Chennai" 
+    },
   ] as OrganizerPerson[],
   webMasters: [
     {
@@ -98,7 +102,7 @@ const OrganizersSection = () => {
         {/* Web Masters */}
         <div className="scroll-reveal mb-12">
           <h3 className="text-center text-2xl md:text-3xl font-display font-semibold text-foreground mb-8">
-            Web Masters
+            Web Developers
           </h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {organizers.webMasters.map((person, i) =>
