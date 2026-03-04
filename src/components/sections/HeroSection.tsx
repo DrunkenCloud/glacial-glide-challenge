@@ -40,36 +40,40 @@ const HeroSection = () => {
       ))}
 
       {/* Content */}
-      <div className="relative z-10 text-center px-4 max-w-[90rem] mx-auto -mt-6">
-        <div className="inline-block mb-6 px-16 py-3 rounded-xl bg-primary/10 backdrop-blur-sm border border-primary/30 shadow-lg w-full max-w-[85%]">
-          <h2 className="font-display text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl font-bold tracking-wide leading-tight">
+      <div className="relative z-10 text-center px-4 max-w-[90rem] mx-auto mt-1">
+        {/* MODERATED PADDING (py-4) AND MARGIN (mb-8) */}
+        <div className="inline-block mb-8 px-6 md:px-12 py-4 rounded-xl bg-primary/10 backdrop-blur-sm border border-primary/30 shadow-md w-full max-w-[90%]">
+          <h2 className="font-display text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold tracking-wide leading-tight">
             <span className="text-glacial-frost">The 11th National Conference on</span>
             <span className="text-glacial-frost"> Computer Vision, Pattern Recognition,</span>
             <span className="text-glacial-frost"> Image Processing and Graphics</span>
-            <br />
-            <span className="text-primary font-extrabold">(NCVPRIPG 2026)</span>
+            <div className="mt-2">
+               <span className="text-primary font-extrabold text-xl md:text-2xl lg:text-3xl">(NCVPRIPG 2026)</span>
+            </div>
           </h2>
         </div>
 
-        <h1 className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-6 leading-tight">
+        {/* MODERATED FONT SIZE (lg:text-6xl) AND MARGIN (mb-8) */}
+        <h1 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-8 leading-tight">
           <span className="text-gradient-ice">GLOFeagles '26</span>
           <br />
-          <span className="text-foreground/90 text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-medium mt-3 block">
-            Automated Detection of Glacial Lakes from Multi-Temporal Satellite
-            Imagery
+          {/* MODERATED mt-4 AND FONT SIZE */}
+          <span className="text-foreground/90 text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-medium mt-2 block px-4">
+            Automated Detection of Glacial Lakes from <br className="hidden md:block" /> Multi-Temporal Satellite Imagery
           </span>
         </h1>
 
-        <p className="text-muted-foreground text-base md:text-lg lg:text-xl mb-10 max-w-3xl mx-auto">
-          July 22–24, 2026 · LNMIIT Jaipur · <br className="sm:hidden" />
-          Organized by Shiv Nadar University Chennai
+        {/* MODERATED mb-10 */}
+        <p className="text-muted-foreground text-base md:text-lg lg:text-xl mb-10 max-w-3xl mx-auto leading-relaxed">
+          July 22–24, 2026 · LNMIIT Jaipur <br />
+          <span className="opacity-80 text-sm md:text-base">Organized by Shiv Nadar University Chennai</span>
         </p>
 
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSe02fogGYG-ysD2in3E-MhY7OTo7DVQK2YSQJ7JjcXEzfPgbQ/viewform"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block bg-primary text-primary-foreground font-display font-semibold px-10 py-4 rounded-lg text-xl glow-cyan hover:scale-105 transition-transform"
+          className="inline-block bg-primary text-primary-foreground font-display font-semibold px-10 py-4 rounded-lg text-xl glow-cyan hover:scale-105 transition-transform shadow-lg"
         >
           Register Now
         </a>
