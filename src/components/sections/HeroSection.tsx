@@ -40,24 +40,15 @@ const HeroSection = () => {
       ))}
 
       {/* Content */}
-      <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
-        <div className="mb-8 translate-y-8 md:translate-y-6">
-          <div className="inline-block px-5 py-3 text-[10px] sm:text-xs md:text-sm font-medium tracking-wide text-primary border border-primary/30 rounded-full mb-6 leading-relaxed">
-            <div className="max-w-3xl mx-auto">
-              <span className="block sm:inline">The 11th National Conference on</span>
-              <br className="sm:hidden" />
-              <span className="block sm:inline"> Computer Vision, Pattern Recognition,</span>
-              <br className="sm:hidden" />
-              <span className="block sm:inline"> Image Processing and Graphics</span>
-              <span className="block sm:inline"> Computer Vision Challenge @ NCVPRIPG 2026</span>
-            </div>
-          </div>
-        </div>
+      <div className="relative z-10 text-center px-4 max-w-5xl mx-auto -mt-2">
+        <h2 className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 leading-tight text-gradient-ice">
+          Computer Vision Challenge @ NCVPRIPG 2026
+        </h2>
 
-        <h1 className="font-display text-5xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-8 leading-tight">
+        <h1 className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-6 leading-tight">
           <span className="text-gradient-ice">GLOFeagles '26</span>
           <br />
-          <span className="text-foreground/90 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-medium mt-3 block">
+          <span className="text-foreground/90 text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-medium mt-3 block">
             Automated Detection of Glacial Lakes from Multi-Temporal Satellite
             Imagery
           </span>
