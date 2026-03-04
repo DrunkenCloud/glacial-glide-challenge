@@ -12,7 +12,7 @@ const organizers = {
     {
       name: "Prof. P. Prakash",
       photo: "/Proff_P_Prakash.jpeg",
-      link: "",
+      link: "https://annauniv.irins.org/profile/117838",
       subtext: "MIT Chennai",
     },
   ] as OrganizerPerson[],
@@ -20,19 +20,19 @@ const organizers = {
     {
       name: "Dr. Vidhusha S",
       photo: "/Vidhusha.webp",
-      link: "",
+      link: "https://www.snuchennai.edu.in/faculty/dr-s-vidhusha/",
       subtext: "SNU Chennai",
     },
     {
       name: "Dr. Sundharakumar K B",
       photo: "/sundar-snuc.webp",
-      link: "",
+      link: "https://www.snuchennai.edu.in/faculty/dr-k-b-sundhara-kumar/",
       subtext: "SNU Chennai",
     },
     { 
       name: "Dr. K Uthradevi", 
       photo: "/uthra.jpg",
-      link: "", 
+      link: "https://www.snuchennai.edu.in/dr-k-uthradevi/", 
       subtext: "SNU Chennai" 
     },
   ] as OrganizerPerson[],
