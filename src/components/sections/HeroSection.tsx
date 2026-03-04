@@ -41,9 +41,11 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-5xl mx-auto -mt-2">
-        <h2 className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 leading-tight text-gradient-ice">
-          Computer Vision Challenge @ NCVPRIPG 2026
-        </h2>
+        <div className="inline-block mb-6 px-6 py-3 rounded-xl bg-primary/10 backdrop-blur-sm border border-primary/20">
+          <h2 className="font-display text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl font-semibold tracking-wide text-glacial-frost">
+            The 11th National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics (NCVPRIPG)
+          </h2>
+        </div>
 
         <h1 className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-6 leading-tight">
           <span className="text-gradient-ice">GLOFeagles '26</span>
