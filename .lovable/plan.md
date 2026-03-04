@@ -17,7 +17,7 @@ A modern, single-page scrolling website for the GLOFeagles '26 challenge at NCVP
 - Full-screen parallax glacial landscape (layered CSS backgrounds)
 - SVG skater centered on ice surface
 - Title overlay: "GLOFeagles '26 – Automated Detection of Glacial Lakes from Multi-Temporal Satellite Imagery"
-- Subtitle: "Computer Vision Challenge @ NCVPRIPG 2026 · July 22-24 · LNMIIT Jaipur"
+- Subtitle: "The 11th National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics - NCVPRIPG 2026 · July 22-24 · LNMIIT Jaipur"
 - "Register Now" button → Google Form link
 - Team credit: Shiv Nadar University Chennai
 

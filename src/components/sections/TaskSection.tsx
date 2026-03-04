@@ -4,7 +4,7 @@ const TaskSection = () => {
   return (
     <section id="tasks" className="relative py-12 md:py-16 px-4">
       <div className="max-w-7xl mx-auto">
-        <div className="scroll-reveal text-right mb-12">
+        <div className="scroll-reveal text-center mb-12">
           <span className="text-primary text-lg font-medium tracking-widest uppercase">
             What You'll Build
           </span>

@@ -9,7 +9,7 @@ const FooterSection = () => {
             GLOFeagles '26
           </h3>
           <p className="text-muted-foreground text-lg">
-            Computer Vision Challenge @ NCVPRIPG 2026 · LNMIIT Jaipur
+            NCVPRIPG 2026 · LNMIIT Jaipur
           </p>
         </div>
 

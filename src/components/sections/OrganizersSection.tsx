@@ -8,6 +8,14 @@ type OrganizerPerson = {
 };
 
 const organizers = {
+  expertAdvisors: [
+    {
+      name: "Prof. P. Prakash",
+      photo: "/Proff_P_Prakash.jpeg",
+      link: "",
+      subtext: "MIT Chennai",
+    },
+  ] as OrganizerPerson[],
   challengeOrganizers: [
     {
       name: "Dr. Vidhusha S",
@@ -96,6 +104,47 @@ const OrganizersSection = () => {
                 </div>
               ),
             )}
+          </div>
+        </div>
+
+        {/* Expert Advisors */}
+        <div className="scroll-reveal mb-12">
+          <h3 className="text-center text-2xl md:text-3xl font-display font-semibold text-foreground mb-8">
+            Expert Advisor
+          </h3>
+          <div className="flex justify-center">
+            <div className="w-full max-w-md mx-auto">
+              {organizers.expertAdvisors.map((person, i) =>
+                person.link ? (
+                  <a
+                    key={i}
+                    href={person.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="scroll-reveal block"
+                    style={{ transitionDelay: `${i * 100}ms` }}
+                  >
+                    <PersonCard
+                      name={person.name}
+                      photo={person.photo}
+                      subtext={person.subtext}
+                    />
+                  </a>
+                ) : (
+                  <div
+                    key={i}
+                    className="scroll-reveal"
+                    style={{ transitionDelay: `${i * 100}ms` }}
+                  >
+                    <PersonCard
+                      name={person.name}
+                      photo={person.photo}
+                      subtext={person.subtext}
+                    />
+                  </div>
+                ),
+              )}
+            </div>
           </div>
         </div>
 
