@@ -40,9 +40,9 @@ const HeroSection = () => {
       ))}
 
       {/* Content */}
-      <div className="relative z-10 text-center px-4 max-w-5xl mx-auto -mt-2">
-        <div className="inline-block mb-6 px-6 py-3 rounded-xl bg-primary/10 backdrop-blur-sm border border-primary/20">
-          <h2 className="font-display text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl font-semibold tracking-wide text-glacial-frost">
+      <div className="relative z-10 text-center px-4 max-w-5xl mx-auto -mt-6">
+        <div className="inline-block mb-4 px-8 py-4 rounded-xl bg-primary/10 backdrop-blur-sm border border-primary/20">
+          <h2 className="font-display text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold tracking-wide text-glacial-frost leading-snug">
             The 11th National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics (NCVPRIPG)
           </h2>
         </div>
