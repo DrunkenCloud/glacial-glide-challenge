@@ -13,7 +13,7 @@ const organizers = {
       name: "Prof. P. Prakash",
       photo: "/Proff_P_Prakash.jpeg",
       link: "https://annauniv.irins.org/profile/117838",
-      subtext: "MIT Chennai",
+      subtext: "Anna University - MIT campus",
     },
   ] as OrganizerPerson[],
   challengeOrganizers: [
