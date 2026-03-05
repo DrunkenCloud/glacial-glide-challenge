@@ -22,8 +22,8 @@ const ProblemSection = () => {
             reliable GLOF hazard assessment and improved flood prediction.
             <br />
             <br />
-            In this challenge, participants will work with Sentinel-2
-            multispectral imagery available through the IEEE DataPort dataset to
+            In this challenge, participants will work with Satellite
+            multispectral imagery available through the given dataset to
             design a computationally efficient and accurate framework for
             glacial lake detection in complex mountainous terrain. The task
             encourages the integration of image processing techniques, spectral
@@ -58,8 +58,8 @@ const ProblemSection = () => {
 
           <div className="flex flex-col md:flex-row md:items-center gap-3 w-full">
             <span className="text-lg text-muted-foreground">
-              <strong className="text-foreground">Dataset:</strong> Sentinel-2
-              multispectral imagery via IEEE DataPort
+              <strong className="text-foreground">Dataset:</strong> Satellite
+              multispectral imagery
             </span>
 
             <span className="w-fit md:ml-auto px-3 py-1 text-s font-semibold rounded-full bg-yellow-500/10 text-yellow-500 border border-yellow-500/20">
