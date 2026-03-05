@@ -67,7 +67,7 @@ const HeroSection = () => {
 
               <h1 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 lg:mb-8 leading-tight">
                 <div className="px-6 md:px-12 py-6 md:py-12 rounded-xl bg-primary/10 backdrop-blur-sm border border-primary/30 shadow-md w-full max-w-[90%] mx-auto lg:mx-0">
-                  <span className="text-gradient-ice inline-block scale-110 origin-left">
+                  <span className="text-gradient-ice inline-block text-[1.1em] leading-[1.1] origin-left">
                     GLOFeagles '26
                   </span>
                   <br />
