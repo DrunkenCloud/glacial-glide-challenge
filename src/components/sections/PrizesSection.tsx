@@ -69,7 +69,7 @@ const PrizesSection = () => {
               <div className="flex items-start gap-3 rounded-lg bg-background/20 px-4 py-3">
                 <FileText className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                 <p className="text-foreground/85 text-sm md:text-base leading-relaxed">
-                  Collaboration opportunity on the summary paper
+                  Possible Publication Ventures as an Outcome of Winning the Challenge
                 </p>
               </div>
             </div>
