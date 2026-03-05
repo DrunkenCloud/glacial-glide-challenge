@@ -35,21 +35,21 @@ const ProblemSection = () => {
             real-world applicability in GLOF risk mapping and early warning
             systems.
           </p>
-          <div className="flex w-full justify-between md:justify-start items-center gap-3 md:gap-6 mt-8">
+          <div className="flex w-full justify-center items-center gap-6 md:gap-12 lg:gap-16 mt-8">
             <img
               src="/sdg9.webp"
               alt="SDG 9 - Industry, Innovation and Infrastructure"
-              className="w-[30%] max-w-[170px] md:w-32 lg:w-36 object-contain"
+              className="w-[28%] max-w-[150px] md:max-w-[170px] lg:max-w-[200px] object-contain"
             />
             <img
               src="/sdg11.webp"
               alt="SDG 11 - Sustainable Cities and Communities"
-              className="w-[30%] max-w-[170px] md:w-32 lg:w-36 object-contain"
+              className="w-[28%] max-w-[150px] md:max-w-[170px] lg:max-w-[200px] object-contain"
             />
             <img
               src="/sdg13.webp"
               alt="SDG 13 - Climate Action"
-              className="w-[30%] max-w-[170px] md:w-32 lg:w-36 object-contain"
+              className="w-[28%] max-w-[150px] md:max-w-[170px] lg:max-w-[200px] object-contain"
             />
           </div>
         </div>
