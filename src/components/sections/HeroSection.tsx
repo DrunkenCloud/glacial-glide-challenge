@@ -53,12 +53,12 @@ const HeroSection = () => {
           {/* Left Column */}
           <div className="text-center lg:text-left w-full lg:w-[60%] xl:w-[65%]">
             <div className="mb-6 lg:mb-8">
-              <h2 className="font-display text-lg sm:text-xl lg:text-2xl font-bold tracking-wide leading-relaxed">
+              <h2 className="font-display text-xl sm:text-2xl lg:text-3xl font-bold tracking-wide leading-relaxed">
                 <span className="text-glacial-frost">
                   The 11th National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics
                 </span>
                 <div className="mt-2">
-                  <span className="text-primary font-extrabold text-2xl lg:text-3xl xl:text-4xl">
+                  <span className="text-primary font-extrabold text-3xl lg:text-4xl xl:text-5xl">
                     (NCVPRIPG 2026)
                   </span>
                 </div>
@@ -67,11 +67,11 @@ const HeroSection = () => {
 
             <div className="px-6 py-10 md:px-12 md:py-14 rounded-2xl bg-primary/10 backdrop-blur-sm border border-primary/30 shadow-md w-full">
               <h1 className="font-display font-bold leading-tight">
-                <span className="text-gradient-ice inline-block text-5xl sm:text-6xl lg:text-7xl xl:text-[6.5rem] leading-[1.2] pb-2">
+                <span className="text-gradient-ice inline-block text-4xl sm:text-5xl lg:text-6xl xl:text-[5.5rem] leading-[1.2] pb-2">
                   GLOFeagles '26
                 </span>
               </h1>
-              <span className="text-foreground/90 text-lg md:text-xl lg:text-2xl xl:text-3xl font-medium mt-6 block leading-snug">
+              <span className="text-foreground/90 text-base md:text-lg lg:text-xl xl:text-2xl font-medium mt-6 block leading-snug">
                 Automated Detection of Glacial Lakes from <br className="hidden xl:block" />
                 Multi-Temporal Satellite Imagery
               </span>
