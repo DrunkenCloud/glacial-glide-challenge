@@ -86,7 +86,6 @@ const PrizesSection = () => {
                 </div>
                 <div className="relative z-10 text-center">
                   <span className="text-lg md:text-xl text-foreground font-display font-bold block">{mention.label}</span>
-                  <span className="text-2xl md:text-3xl font-bold text-primary mt-2 block">{mention.amount}</span>
                 </div>
               </div>
             ))}

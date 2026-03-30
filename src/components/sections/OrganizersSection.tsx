@@ -38,9 +38,9 @@ const organizers = {
   ] as OrganizerPerson[],
   volunteers: [
     {
-      name: "Rathish Manivannam",
+      name: "Rathish Manivannan",
       photo: "/Rathish.jpeg",
-      link: "",
+      link: "https://www.linkedin.com/in/rathish-manivannan-795a47258",
       subtext: "Student, SNU Chennai",
     },
     {
