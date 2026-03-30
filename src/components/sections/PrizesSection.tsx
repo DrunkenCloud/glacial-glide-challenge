@@ -26,8 +26,14 @@ const prizes = [
 ];
 
 const honorableMentions = [
-  { icon: Star, label: "Honorable Mention 1" },
-  { icon: Star, label: "Honorable Mention 2" },
+  {
+    icon: Star,
+    label: "Honorable Mention 1"
+  },
+  {
+    icon: Star,
+    label: "Honorable Mention 2",
+  },
 ];
 
 const PrizesSection = () => {
@@ -66,17 +72,25 @@ const PrizesSection = () => {
         </div>
 
         {/* Honorable Mentions */}
-        <div className="scroll-reveal grid sm:grid-cols-2 gap-4 max-w-2xl mx-auto mb-12">
-          {honorableMentions.map((mention, i) => (
-            <div
-              key={i}
-              className="glass-card rounded-lg p-5 flex items-center gap-3 hover:border-primary/30 transition-colors"
-              style={{ transitionDelay: `${(prizes.length + i) * 100}ms` }}
-            >
-              <mention.icon className="w-6 h-6 text-primary/70 shrink-0" />
-              <span className="text-base md:text-lg text-foreground/85 font-medium">{mention.label}</span>
-            </div>
-          ))}
+        <div className="scroll-reveal mb-12">
+          <div className="grid sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
+            {honorableMentions.map((mention, i) => (
+              <div
+                key={i}
+                className="glass-card rounded-xl p-8 md:p-10 flex flex-col items-center gap-4 hover:border-primary hover:shadow-[0_0_30px_rgba(0,229,255,0.3)] transition-all duration-300 border-2 border-dashed border-primary/50 relative overflow-hidden group"
+                style={{ transitionDelay: `${(prizes.length + i) * 100}ms` }}
+              >
+                <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="relative z-10 w-16 h-16 md:w-20 md:h-20 rounded-full border-2 border-dashed border-primary/60 flex items-center justify-center group-hover:border-primary group-hover:shadow-[0_0_20px_rgba(0,229,255,0.4)] transition-all duration-300">
+                  <mention.icon className="w-8 h-8 md:w-10 md:h-10 text-primary" />
+                </div>
+                <div className="relative z-10 text-center">
+                  <span className="text-lg md:text-xl text-foreground font-display font-bold block">{mention.label}</span>
+                  <span className="text-2xl md:text-3xl font-bold text-primary mt-2 block">{mention.amount}</span>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
 
         <div className="scroll-reveal max-w-3xl mx-auto">
