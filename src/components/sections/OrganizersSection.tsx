@@ -36,6 +36,38 @@ const organizers = {
       subtext: "SNU Chennai",
     },
   ] as OrganizerPerson[],
+  volunteers: [
+    {
+      name: "Rathish Manivannam",
+      photo: "/Rathish.jpeg",
+      link: "",
+      subtext: "Student, SNU Chennai",
+    },
+    {
+      name: "Akshayan Vishal",
+      photo: "/akshayan.jpeg",
+      link: "",
+      subtext: "Student, SNU Chennai",
+    },
+    {
+      name: "Akshat Sharma",
+      photo: "akshat.jpeg",
+      link: "",
+      subtext: "Student, SNU Chennai",
+    },
+    {
+      name: "Anshukman MJ",
+      photo: "anshukman.jpeg",
+      link: "",
+      subtext: "Student, SNU Chennai",
+    },
+    {
+      name: "Aadithyaa S",
+      photo: "aadithyaa.jpeg",
+      link: "",
+      subtext: "Student, SNU Chennai",
+    },
+  ] as OrganizerPerson[],
   webMasters: [
     {
       name: "Niranjhan SU",
@@ -145,6 +177,45 @@ const OrganizersSection = () => {
                 ),
               )}
             </div>
+          </div>
+        </div>
+
+        {/* Volunteers */}
+        <div className="scroll-reveal mb-12">
+          <h3 className="text-center text-2xl md:text-3xl font-display font-semibold text-foreground mb-8">
+            Volunteering Team
+          </h3>
+          <div className="flex flex-wrap justify-center gap-6 max-w-6xl mx-auto">
+            {organizers.volunteers.map((person, i) =>
+              person.link ? (
+                <a
+                  key={i}
+                  href={person.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="scroll-reveal block w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)]"
+                  style={{ transitionDelay: `${i * 100}ms` }}
+                >
+                  <PersonCard
+                    name={person.name}
+                    photo={person.photo}
+                    subtext={person.subtext}
+                  />
+                </a>
+              ) : (
+                <div
+                  key={i}
+                  className="scroll-reveal w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)]"
+                  style={{ transitionDelay: `${i * 100}ms` }}
+                >
+                  <PersonCard
+                    name={person.name}
+                    photo={person.photo}
+                    subtext={person.subtext}
+                  />
+                </div>
+              ),
+            )}
           </div>
         </div>
 

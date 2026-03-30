@@ -2,9 +2,11 @@ import React from 'react';
 
 const milestones = [
   { date: "Mar 05", year: "2026", label: "Launch of Website" },
-  { date: "Apr 01", year: "2026", label: "Dataset Release & Submission Opens" },
+  { date: "Apr 01", year: "2026", label: "Dataset Release to Registered Participants" },
+  { date: "Apr 20", year: "2026", label: "Registration Closes and Submission Begins" },
   { date: "May 15", year: "2026", label: "Validation Begins" },
   { date: "Jun 05", year: "2026", label: "Final Closure of Submissions (Post Validation)" },
+  { date: "Jun 08", year: "2026", label: "Test Data Release for Top 10 Teams" },
   { date: "Jun 20", year: "2026", label: "Announcement of Shortlisted Teams" },
   { date: "Jun 20 – Jul 05", year: "2026", label: "Conference Registration" },
 ];

@@ -1,4 +1,4 @@
-import { Trophy, Award, FileText } from "lucide-react";
+import { Trophy, Award, Medal, Star, FileText } from "lucide-react";
 
 const prizes = [
   {
@@ -17,12 +17,17 @@ const prizes = [
     orderClass: "order-1 md:order-2",
   },
   {
-    icon: Award,
+    icon: Medal,
     label: "2nd Runner-Up",
     amount: "₹5,000",
     color: "text-accent",
     orderClass: "order-3 md:order-3",
   },
+];
+
+const honorableMentions = [
+  { icon: Star, label: "Honorable Mention 1" },
+  { icon: Star, label: "Honorable Mention 2" },
 ];
 
 const PrizesSection = () => {
@@ -38,7 +43,7 @@ const PrizesSection = () => {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-3 md:items-end gap-6 md:gap-8 mb-12">
+        <div className="grid md:grid-cols-3 md:items-end gap-6 md:gap-8 mb-8">
           {prizes.map((prize, i) => (
             <div
               key={i}
@@ -56,6 +61,20 @@ const PrizesSection = () => {
               <p className="font-display text-4xl md:text-5xl font-bold text-foreground">
                 {prize.amount}
               </p>
+            </div>
+          ))}
+        </div>
+
+        {/* Honorable Mentions */}
+        <div className="scroll-reveal grid sm:grid-cols-2 gap-4 max-w-2xl mx-auto mb-12">
+          {honorableMentions.map((mention, i) => (
+            <div
+              key={i}
+              className="glass-card rounded-lg p-5 flex items-center gap-3 hover:border-primary/30 transition-colors"
+              style={{ transitionDelay: `${(prizes.length + i) * 100}ms` }}
+            >
+              <mention.icon className="w-6 h-6 text-primary/70 shrink-0" />
+              <span className="text-base md:text-lg text-foreground/85 font-medium">{mention.label}</span>
             </div>
           ))}
         </div>
