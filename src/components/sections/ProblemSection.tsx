@@ -53,18 +53,27 @@ const ProblemSection = () => {
             />
           </div>
         </div>
-        <div className="scroll-reveal glass-card rounded-lg p-6 w-full flex items-start md:items-center gap-4 md:gap-5">
-          <div className="w-3 h-3 rounded-full bg-primary animate-pulse" />
+        <div className="scroll-reveal glass-card rounded-lg p-6 w-full">
+          <div className="flex items-start md:items-center gap-4 md:gap-5 mb-4">
+            <div className="w-3 h-3 rounded-full bg-green-500 animate-pulse shrink-0 mt-1 md:mt-0" />
 
-          <div className="flex flex-col md:flex-row md:items-center gap-3 w-full">
-            <span className="text-lg text-muted-foreground">
-              <strong className="text-foreground">Dataset:</strong> Satellite
-              multispectral imagery
-            </span>
+            <div className="flex flex-col md:flex-row md:items-center gap-3 w-full">
+              <span className="text-lg text-muted-foreground">
+                <strong className="text-foreground">Dataset:</strong> Satellite
+                multispectral imagery
+              </span>
 
-            <span className="w-fit md:ml-auto px-3 py-1 text-s font-semibold rounded-full bg-yellow-500/10 text-yellow-500 border border-yellow-500/20">
-              To Be Released
-            </span>
+              <span className="w-fit md:ml-auto px-3 py-1 text-sm font-semibold rounded-full bg-green-500/10 text-green-500 border border-green-500/20">
+                Releasing
+              </span>
+            </div>
+          </div>
+          
+          <div className="pl-7 md:pl-8">
+            <p className="text-base md:text-lg text-foreground/90 leading-relaxed">
+              <strong className="text-primary">Dataset release has been initiated</strong> to registered participants. 
+              Please check your inbox and spam folder on your registered email account.
+            </p>
           </div>
         </div>
       </div>
