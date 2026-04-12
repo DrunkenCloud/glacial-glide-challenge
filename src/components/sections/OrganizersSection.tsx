@@ -8,14 +8,6 @@ type OrganizerPerson = {
 };
 
 const organizers = {
-  keynoteSpeaker: [
-    {
-      name: "Dr. Deepak Mishra",
-      photo: "/Deepak_Mishra.jpg",
-      link: "https://www.iist.ac.in/people-faculty-profile/deepak-mishra",
-      subtext: "Professor, Indian Institute of Space Science and Technology Trivandrum",
-    },
-  ] as OrganizerPerson[],
   expertAdvisors: [
     {
       name: "Prof. P. Prakash",
@@ -155,7 +147,7 @@ const OrganizersSection = () => {
           </div>
         </div>
 
-        {/* Expert Advisors */}
+        {/* Expert Advisor */}
         <div className="scroll-reveal mb-12">
           <h3 className="text-center text-2xl md:text-3xl font-display font-semibold text-foreground mb-8">
             Expert Advisor
@@ -163,47 +155,6 @@ const OrganizersSection = () => {
           <div className="flex justify-center">
             <div className="w-full max-w-md mx-auto">
               {organizers.expertAdvisors.map((person, i) =>
-                person.link ? (
-                  <a
-                    key={i}
-                    href={person.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="scroll-reveal block"
-                    style={{ transitionDelay: `${i * 100}ms` }}
-                  >
-                    <PersonCard
-                      name={person.name}
-                      photo={person.photo}
-                      subtext={person.subtext}
-                    />
-                  </a>
-                ) : (
-                  <div
-                    key={i}
-                    className="scroll-reveal"
-                    style={{ transitionDelay: `${i * 100}ms` }}
-                  >
-                    <PersonCard
-                      name={person.name}
-                      photo={person.photo}
-                      subtext={person.subtext}
-                    />
-                  </div>
-                ),
-              )}
-            </div>
-          </div>
-        </div>
-
-        {/* Keynote Speaker */}
-        <div className="scroll-reveal mb-12">
-          <h3 className="text-center text-2xl md:text-3xl font-display font-semibold text-foreground mb-8">
-            Keynote Speaker
-          </h3>
-          <div className="flex justify-center">
-            <div className="w-full max-w-md mx-auto">
-              {organizers.keynoteSpeaker.map((person, i) =>
                 person.link ? (
                   <a
                     key={i}
