@@ -75,6 +75,18 @@ const organizers = {
       link: "https://www.linkedin.com/in/aadithiyaas",
       subtext: "Student, SNU Chennai",
     },
+    {
+      name: "Kabin Eshwar R R",
+      photo: "/placeholder.svg",
+      link: "https://www.linkedin.com/in/kabin-eshwar-r-r/",
+      subtext: "Student, SNU Chennai",
+    },
+    {
+      name: "Vishwa V",
+      photo: "/placeholder.svg",
+      link: "https://www.linkedin.com/in/eincosmos",
+      subtext: "Student, SNU Chennai",
+    },
   ] as OrganizerPerson[],
   webMasters: [
     {
