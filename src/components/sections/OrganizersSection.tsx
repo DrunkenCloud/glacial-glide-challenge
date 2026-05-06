@@ -77,13 +77,13 @@ const organizers = {
     },
     {
       name: "Kabin Eshwar R R",
-      photo: "/placeholder.svg",
+      photo: "/kabin.jpeg",
       link: "https://www.linkedin.com/in/kabin-eshwar-r-r/",
       subtext: "Student, SNU Chennai",
     },
     {
       name: "Vishwa V",
-      photo: "/placeholder.svg",
+      photo: "/vishwa.jpeg",
       link: "https://www.linkedin.com/in/eincosmos",
       subtext: "Student, SNU Chennai",
     },
