@@ -54,8 +54,10 @@ const HeroSection = () => {
               <div className="w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-green-500 animate-pulse shrink-0" />
               <div>
                 <p className="text-base md:text-lg lg:text-xl text-foreground leading-relaxed text-center">
-                  <strong className="text-green-400 font-bold">Dataset Release in Progress</strong> 
-                  <span className="text-foreground/90"> Check your inbox and spam folder on your registered email account.</span>
+                  <strong className="text-green-400 font-bold">Dataset Released & Submissions Open!</strong> 
+                  <span className="text-foreground/90"> Check your inbox for dataset access. Ready to submit? See the </span>
+                  <a href="#submission" className="text-primary hover:underline font-semibold">Submission section</a>
+                  <span className="text-foreground/90"> below.</span>
                 </p>
               </div>
             </div>

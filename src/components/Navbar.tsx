@@ -7,6 +7,7 @@ const Navbar = () => {
     { id: "tasks", label: "Tasks" },
     { id: "timeline", label: "Dates" },
     { id: "rules", label: "Rules" },
+    { id: "submission", label: "Submit" },
     { id: "prizes", label: "Prizes" },
     { id: "sponsors", label: "Sponsors" },
     { id: "organizers", label: "Team" },
