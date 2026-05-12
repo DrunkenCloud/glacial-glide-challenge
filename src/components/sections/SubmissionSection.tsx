@@ -64,29 +64,22 @@ const SubmissionSection = () => {
                   Submission Format
                 </h3>
                 <p className="text-base md:text-lg text-foreground/85 mb-6">
-                  Submit your solution to <a href="mailto:glofeagles@snuchennai.edu.in" className="text-primary hover:underline font-semibold">glofeagles@snuchennai.edu.in</a> as either:
+                  Submit your solution to <a href="mailto:glofeagles@snuchennai.edu.in" className="text-primary hover:underline font-semibold">glofeagles@snuchennai.edu.in</a> with your GitHub repository link:
                 </p>
               </div>
             </div>
 
-            <div className="ml-16 grid sm:grid-cols-2 gap-6">
-              <div className="p-6 rounded-lg bg-background/30 border border-primary/20">
-                <div className="flex items-center gap-3 mb-3">
-                  <FileText className="w-6 h-6 text-primary" />
-                  <h4 className="text-lg font-display font-bold text-foreground">ZIP Archive</h4>
-                </div>
-                <p className="text-foreground/85 font-mono text-sm">
-                  TeamName_GLOF_Challenge.zip
-                </p>
-              </div>
-
-              <div className="p-6 rounded-lg bg-background/30 border border-primary/20">
+            <div className="ml-16">
+              <div className="p-6 rounded-lg bg-background/30 border-2 border-primary/30 max-w-2xl">
                 <div className="flex items-center gap-3 mb-3">
                   <Github className="w-6 h-6 text-primary" />
                   <h4 className="text-lg font-display font-bold text-foreground">GitHub Repository</h4>
                 </div>
-                <p className="text-foreground/85 font-mono text-sm">
+                <p className="text-foreground/85 font-mono text-sm md:text-base">
                   TeamName_GLOF_Challenge
+                </p>
+                <p className="text-muted-foreground text-sm mt-3">
+                  Ensure your repository is public or accessible to evaluators
                 </p>
               </div>
             </div>
