@@ -7,7 +7,7 @@ const milestones = [
   { date: "May 15", year: "2026", label: "Validation Begins" },
   { date: "Jun 10", year: "2026", label: "Final Closure of Submissions (Post Validation)" },
   { date: "Jun 16", year: "2026", label: "Test Data Release for Top 10 Teams" },
-  { date: "Jun 20", year: "2026", label: "Announcement of Shortlisted Teams" },
+  { date: "Jun 20", year: "2026", label: "Announcement of Shortlisted Teams (Tentative)" },
   { date: "Jun 20 – Jul 05", year: "2026", label: "Conference Registration" },
 ];
 
