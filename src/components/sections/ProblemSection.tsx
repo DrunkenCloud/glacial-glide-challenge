@@ -23,10 +23,10 @@ const ProblemSection = () => {
             <br />
             <br />
             In this challenge, participants will work with Satellite
-            multispectral imagery available through the given dataset to
+            multi-temporal imagery available through the given dataset to
             design a computationally efficient and accurate framework for
             glacial lake detection in complex mountainous terrain. The task
-            encourages the integration of image processing techniques, spectral
+            encourages the integration of image processing techniques, temporal
             indices, terrain analysis, and deep learning models to effectively
             distinguish glacial lakes from snow, ice, debris-covered surfaces,
             and terrain shadows, while minimizing false alarms. Emphasis will be
@@ -60,7 +60,7 @@ const ProblemSection = () => {
             <div className="flex flex-col md:flex-row md:items-center gap-3 w-full">
               <span className="text-lg text-muted-foreground">
                 <strong className="text-foreground">Dataset:</strong> Satellite
-                multispectral imagery
+                multi-temporal imagery
               </span>
 
               <span className="w-fit md:ml-auto px-3 py-1 text-sm font-semibold rounded-full bg-green-500/10 text-green-500 border border-green-500/20">
