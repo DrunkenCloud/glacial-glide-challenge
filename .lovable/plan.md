@@ -27,7 +27,7 @@ A modern, single-page scrolling website for the GLOFeagles '26 challenge at NCVP
 - Bullet: Dataset – Sentinel-2 via IEEE DataPort
 
 ### 3. Task Details
-- Detect glacial lakes using image processing, spectral indices, terrain analysis, deep learning
+- Detect glacial lakes using image processing, temporal indices, terrain analysis, deep learning
 - Distinguish from snow/ice/debris/shadows; minimize false alarms
 - Performance evaluation & uncertainty for GLOF risk mapping
 
