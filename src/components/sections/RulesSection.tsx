@@ -32,7 +32,7 @@ const rules = [
       "Pre-trained model weights or checkpoints must be provided to enable direct evaluation without retraining.",
       "Model-generated outputs (segmentation masks or detection results) on the provided test dataset must be submitted.",
       "Participants must include an ablation study or justification of key design choices to strengthen their submission.",
-      "Final submissions close on June 10, 2026.",
+      <>Final submissions close on <s>June 10</s> June 12, 2026 (extended).</>,
     ],
   },
   {
