@@ -16,7 +16,7 @@ const SubmissionSection = () => {
         {/* Download Guidelines */}
         <div className="scroll-reveal mb-8">
           <a
-            href="/GLOFeagles_26-Submission_Procedure.pdf"
+            href="/GLOFeagles_26-Submission_Procedure.docx"
             download
             className="glass-card rounded-xl p-6 flex items-center justify-between gap-4 hover:border-primary/40 transition-all group max-w-3xl mx-auto"
           >
@@ -29,7 +29,7 @@ const SubmissionSection = () => {
                   Download Submission Guidelines
                 </p>
                 <p className="text-sm md:text-base text-muted-foreground">
-                  Complete procedure in PDF format
+                  Complete procedure in Doc format
                 </p>
               </div>
             </div>
