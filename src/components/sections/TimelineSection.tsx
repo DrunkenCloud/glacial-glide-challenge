@@ -21,9 +21,10 @@ const milestones = [
   },
   { date: "Jun 16", year: "2026", label: "Test Data Release for Top 10 Teams" },
   {
-    date: "Jun 20",
+    date: "Jun 24",
     year: "2026",
     label: "Announcement of Shortlisted Teams (Tentative)",
+    previousDate: "Jun 20",
   },
   { date: "Jun 20 – Jul 05", year: "2026", label: "Conference Registration" },
 ];
@@ -79,7 +80,10 @@ const TimelineSection = () => {
                         }`}
                       >
                         <p className="text-primary font-display font-bold text-xl md:text-2xl leading-tight text-center px-2">
-                          {m.date}
+                          {m.previousDate && (
+                            <span className="block line-through text-lg md:text-xl">{m.previousDate}</span>
+                          )}
+                          <span className={m.previousDate ? "text-lg md:text-xl" : ""}>{m.date}</span>
                         </p>
                         <p className="text-primary/70 font-display text-sm md:text-base mt-1">
                           {m.year}
