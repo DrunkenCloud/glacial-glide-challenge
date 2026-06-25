@@ -47,17 +47,17 @@ const HeroSection = () => {
       */}
       <div className="relative z-10 w-full max-w-[100rem] mx-auto flex-grow flex flex-col justify-center px-6 md:px-12 pt-6 md:pt-6 pb-[35vh]">
         
-        {/* Dataset Release Notification */}
+        {/* Finalists & Dataset Release Notification */}
         <div className="mb-8 lg:mb-10 animate-fade-in">
           <div className="glass-card rounded-xl p-4 md:p-5 border-2 border-green-500/40 bg-green-500/5 backdrop-blur-md shadow-lg max-w-6xl mx-auto">
             <div className="flex items-center justify-center gap-3 md:gap-4">
               <div className="w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-green-500 animate-pulse shrink-0" />
               <div>
                 <p className="text-base md:text-lg lg:text-xl text-foreground leading-relaxed text-center">
-                  <strong className="text-green-400 font-bold">Dataset Released & Submissions Open!</strong> 
-                  <span className="text-foreground/90"> Check your inbox for dataset access. Ready to submit? See the </span>
-                  <a href="#submission" className="text-primary hover:underline font-semibold">Submission section</a>
-                  <span className="text-foreground/90"> below.</span>
+                  <strong className="text-green-400 font-bold">Top 5 Finalists Announced!</strong>
+                  <span className="text-foreground/90"> Check out the </span>
+                  <button onClick={() => document.getElementById("finalists")?.scrollIntoView({ behavior: "smooth" })} className="text-primary hover:underline font-semibold bg-transparent border-none p-0 cursor-pointer inline">qualified teams</button>
+                  <span className="text-foreground/90"> for the Finale at LNMIIT Jaipur.</span>
                 </p>
               </div>
             </div>
