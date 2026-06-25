@@ -92,7 +92,7 @@ const FinalistsSection = () => {
           <div className="glass-card rounded-xl p-6 md:p-8 border-2 border-accent/40 bg-accent/5">
             <div className="flex items-center justify-center gap-3">
               <p className="text-foreground/90 text-base md:text-lg text-center">
-                Winners must register at <a href="https://ncvpripg2026.lnmiit.ac.in/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">ncvpripg2026.lnmiit.ac.in</a> to participate in the final presentation at NCVPRIPG 2026.
+                Top 5 teams please register at <a href="https://ncvpripg2026.lnmiit.ac.in/registration" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">ncvpripg2026.lnmiit.ac.in/registration</a>
               </p>
             </div>
           </div>
