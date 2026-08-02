@@ -7,7 +7,8 @@ import TaskSection from "@/components/sections/TaskSection";
 import TimelineSection from "@/components/sections/TimelineSection";
 import RulesSection from "@/components/sections/RulesSection";
 import SubmissionSection from "@/components/sections/SubmissionSection";
-import PrizesSection from "@/components/sections/PrizesSection";
+import WinnersSection from "@/components/sections/WinnersSection";
+import GallerySection from "@/components/sections/GallerySection";
 import SponsorsSection from "@/components/sections/SponsorsSection";
 import GuestSection from "@/components/sections/GuestSection";
 import OrganizersSection from "@/components/sections/OrganizersSection";
@@ -42,7 +43,8 @@ const Index = () => {
       <TimelineSection />
       <RulesSection />
       <SubmissionSection />
-      <PrizesSection />
+      <WinnersSection />
+      <GallerySection />
       <SponsorsSection />
       <GuestSection />
       <OrganizersSection />
